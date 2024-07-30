@@ -88,8 +88,7 @@ const FooterComponent = () => {
               textAlign="center"
               variant="body1"
             >
-              Plot No. 67, Santosh Nagar Dattanagar Road, Opposite Balaji
-              Garage, Katraj, Pune-411046, Maharashtra, India
+              205, Akashdeep Complex ,Sapna Sangeeta Road Indore Madhya PRadesh
             </Typography>
           </Grid>
           <Grid

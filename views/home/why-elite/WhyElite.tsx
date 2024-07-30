@@ -66,12 +66,12 @@ const WhyElite = () => {
             content="Presence in major cities like Hyderabad, Mumbai, New Delhi, Chennai, Kolkata, Bangalore, Pune, Nagpur, Visakhapatnam"
           />
         </Grid>
-        <Grid item md={4}>
+        {/* <Grid item md={4}>
           <ConsultantCard
             icon={<GrCertificate size={120} color={APP_COLORS.PRIMARY_COLOR} />}
             content="An ISO 9001:2015 certified organisation with stringent process to deliver best-in-industry services"
           />
-        </Grid>
+        </Grid> */}
         <Grid item md={4}>
           <ConsultantCard
             backgroundColor={APP_COLORS.PRIMARY_COLOR}

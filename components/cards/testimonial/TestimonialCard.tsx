@@ -23,14 +23,14 @@ const StyledTestimonialCardComponent = styled(Box)(({ theme }) => ({
     marginTop: 20,
     paddingTop: 20,
     backgroundRepeat: "no-repeat",
-    backgroundSize:"200px",
-    backgroundPosition:"center",
+    backgroundSize: "200px",
+    backgroundPosition: "center",
 
 
   },
 }));
 
-const TestimonialCardComponent = () => {
+const TestimonialCardComponent = ({ review }: any) => {
   return (
     <StyledTestimonialCardComponent>
       <Card sx={{ backgroundImage: `url(/icons/quote.png)` }}>
@@ -43,16 +43,12 @@ const TestimonialCardComponent = () => {
           >
             <Grid item>
               <Typography mb={2} textAlign="center" variant="h5">
-                Bharathi Exports
+              {review.companyName}
               </Typography>
             </Grid>
             <Grid item>
               <Typography mb={2} textAlign="center" variant="body1">
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and
-                visual mockups. Lorem ipsum is placeholder text commonly used in
-                the graphic, print, and publishing industries for previewing
-                layouts and visual mockups.
+              {review.content}
               </Typography>
             </Grid>
             <Grid item>
@@ -66,7 +62,7 @@ const TestimonialCardComponent = () => {
                   textAlign="center"
                   variant="subtitle1"
                 >
-                  Radhu Ram
+                  {review.authorName}
                 </Typography>
                 <Typography
                   fontSize={14}
@@ -77,11 +73,12 @@ const TestimonialCardComponent = () => {
                   textAlign="center"
                   variant="body2"
                 >
-                  Business Executive
+                  {review.authorDesignation}
                 </Typography>
               </Box>
             </Grid>
           </Grid>
+         
         </CardContent>
       </Card>
     </StyledTestimonialCardComponent>
