@@ -27,8 +27,8 @@ const ServicesComponent = () => {
       <Grid container spacing={2}>
         <Grid item md={3}>
           <ServiceCard
-            title="DGFT Consultant"
-            imgUrl="https://5.imimg.com/data5/SELLER/Default/2021/5/DR/HY/TG/5259098/dgft-consultancy-services-500x500.jpg"
+            title="DGFT Services"
+            imgUrl="https://5.imimg.com/data5/SELLER/Default/2022/2/UD/SW/QQ/6302709/dgft-license-services-500x500.jpg"
             content="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
             btnLabel="Know More"
           />

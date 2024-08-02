@@ -38,29 +38,32 @@ const AboutUsComponent = () => {
           </Grid>
           <Grid item xs={12}>
             <Typography mb={4} textAlign="left">
-              We have two decades of experience handling matters related to
-              Foreign Trade Policy DGFT, Indirect Taxation (GST), and Customs
-              related matters as well as Industrial Subsidies. We would be
-              pleased to extend our support to your Organisation in the
-              following aspects.
+            Welcome to Elite Overseas, your trusted consultancy partner specializing in customs and taxation services. With a wealth of experience and a dedicated team of experts, we are committed to providing top-notch solutions tailored to meet your business needs.
+
             </Typography>
             <Typography mb={4} fontWeight={700} variant="h4">
-              Facilitation
+            WHO ARE WE
             </Typography>
             <Typography mb={4} textAlign="left">
-              Our core competency lies in the facilitation of various Licences /
-              Authorisations / Benefits that your business is eligible for, from
-              DGFT and Customs Authorities. We can help you with getting the
-              following
+            At Elite Overseas, we pride ourselves on our deep understanding of the intricate processes involved in customs and taxation. Our mission is to simplify these complexities, allowing you to focus on what you do best – growing your business. We offer a comprehensive range of services, including:
+
+            IGST Refunds: Ensuring that you receive your rightful IGST refunds with our meticulous and transparent process. We only charge a service fee after the refund is credited to your account.
+
+            DBK Clearance: Facilitating smooth and efficient DBK clearance to maximize your benefits.
+
+            Taxation Services: Providing expert advice and solutions for all your taxation needs.
+
+            Customs-Related Services: Handling all customs-related matters with precision and expertise.
+
             </Typography>
             <Typography mb={4} fontWeight={700} variant="h4">
-              Consultation / Representation
+              OUR COMMITMENT
             </Typography>
             <Typography mb={4} textAlign="left">
-              Over a couple of years, we had the opportunity to work with
-              various Industries and understand the specific problems faced by
-              the businesses. To help businesses resolve these problems we
-              developed competency in the following areas:
+            We understand that every business is unique, and so are its needs. That's why we take a personalized approach to every client, offering customized solutions that drive success. Our team of professionals is dedicated to delivering results with integrity, efficiency, and a commitment to excellence.
+
+Join hands with Elite Overseas and experience the difference of working with a consultancy that truly cares about your success.
+
             </Typography>
             <Typography mb={1} textAlign="left">
               1. Replies to Show Cause Notices, Filing of Appeals and Submission
@@ -77,7 +80,7 @@ const AboutUsComponent = () => {
             <Typography mb={4} textAlign="left">
               4. Legal Advisory related to Exim procedures
             </Typography>
-            <Typography mb={4} fontWeight={700} variant="h4">
+            {/* <Typography mb={4} fontWeight={700} variant="h4">
               Ease of Doing Business
             </Typography>
             <Typography mb={4} textAlign="left">
@@ -104,7 +107,7 @@ const AboutUsComponent = () => {
               which are related to your business. We request you to provide us
               with a chance to speak to you and see how we can be helpful for
               DGFT (EXIM) / Customs related matters
-            </Typography>
+            </Typography> */}
           </Grid>
         </Grid>
       </Box>

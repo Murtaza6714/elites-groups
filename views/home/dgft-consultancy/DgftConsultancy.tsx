@@ -46,28 +46,23 @@ const DgftConsultancy = () => {
         <Grid container>
           <Grid item xs={12}>
             <Typography mb={4} textAlign="center" variant="h2">
-              DGFT CONSULTANCY
+            DGFT SERVICES
             </Typography>
           </Grid>
           <Grid item xs={12}>
             <Typography mb={2} textAlign="justify">
-              Elite Consultants is a professional consulting firm for importers
-              and exporters in India. We help them for facilitation of various
-              licences from DGFT (Directorate General of Foreign Trade). We
-              provide support to clients in preparing applications,
-              documentation of import-export statements, monitoring exports
-              against licences taken from DGFT, representing them before DGFT
-              and Customs Commissioners in case of any litigations and give the
-              best advice for their import export related queries.
+            Our DGFT services are designed to streamline and optimize your international trade operations. We provide comprehensive support to ensure compliance with DGFT regulations and facilitate smooth export and import processes by providing the following services: 
+Export/Import Licensing, IEC (Import Export Code) Registration, End of Day Closure (EODC) services, Export Promotion Capital Goods (EPCG) services, Registration Cum Membership Certificate (RCMC) services etc..
+
             </Typography>
-            <Typography textAlign="justify">  1 We have been in this business since last two decades and we have
+            {/* <Typography textAlign="justify">  1 We have been in this business since last two decades and we have
               accumulated vast knowledge in interpretation of the Foreign Trade
               Policy and the best practices to follow for doing imports and
               exports. There are various schemes from Govt. of India to make
               exports from India more competent in the International market.
               DGFT is the controlling office which monitors the operations of
               these schemes. We help businesses to get benefits of these schemes
-              by following the prescribed procedures of DGFT</Typography>
+              by following the prescribed procedures of DGFT</Typography> */}
           </Grid>
         </Grid>
       </Box>

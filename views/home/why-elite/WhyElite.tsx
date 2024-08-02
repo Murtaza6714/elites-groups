@@ -31,7 +31,7 @@ const WhyElite = () => {
           variant="h4"
           textAlign="center"
         >
-          Why Elite Consultants?
+          Why Choose Elite Overseas
         </Typography>
       </Box>
       <Grid container spacing={2}>
@@ -43,35 +43,40 @@ const WhyElite = () => {
                 color={APP_COLORS.PRIMARY_COLOR}
               />
             }
-            content="In-depth knowledge of the Regulatory Environment, Government Policies & Procedures and the role of different Government Agencies."
+            content="With years of experience in customs and taxation services, our team brings unparalleled expertise to the table. We stay up-to-date with the latest regulations and practices, ensuring that you receive accurate and effective solutions."
+            header="Expertise and Experience"
           />
         </Grid>
         <Grid item md={4}>
           <ConsultantCard
             backgroundColor={APP_COLORS.PRIMARY_COLOR}
             icon={<RiVerifiedBadgeFill size={120} color={APP_COLORS.WHITE} />}
-            content="20+ years of experience in the subject matter related to Foreign Trade Policy, Indirect Taxation, Industrial Subsidies and other related issues across different sectors & segments. "
+            header="Transparent and Ethical Practices"
+            content="At Elite Overseas, we believe in transparency and integrity. Our processes are clear, and our pricing is straightforward. We charge a service fee only after you receive your IGST refund, demonstrating our commitment to your satisfaction and success."
           />
         </Grid>
         <Grid item md={4}>
           <ConsultantCard
             icon={<RiTeamLine size={120} color={APP_COLORS.PRIMARY_COLOR} />}
-            content="Team of qualified and experienced professionals with proven track record of having served clients across various MNCs, Private Sector Companies and Indian Corporates"
+            header="Client-Centric Approach"
+            content="Our clients are at the heart of everything we do. We tailor our services to meet your specific needs, providing personalized solutions that drive tangible results. Your success is our priority, and we work diligently to help you achieve it."
           />
         </Grid>
         <Grid item md={4}>
           <ConsultantCard
             backgroundColor={APP_COLORS.PRIMARY_COLOR}
             icon={<FaLocationDot size={120} color={APP_COLORS.WHITE} />}
-            content="Presence in major cities like Hyderabad, Mumbai, New Delhi, Chennai, Kolkata, Bangalore, Pune, Nagpur, Visakhapatnam"
+            header="Comprehensive Services"
+            content="We offer a wide range of services, from IGST refunds and DBK clearance to comprehensive taxation and customs-related services. This means you can rely on us for all your consultancy needs, saving you time and ensuring consistency in service quality."
           />
         </Grid>
-        {/* <Grid item md={4}>
+        <Grid item md={4}>
           <ConsultantCard
             icon={<GrCertificate size={120} color={APP_COLORS.PRIMARY_COLOR} />}
-            content="An ISO 9001:2015 certified organisation with stringent process to deliver best-in-industry services"
+            header="Dedicated Support"
+            content="Our dedicated support team is always ready to assist you. We provide prompt responses and proactive solutions to any challenges you may face, ensuring smooth operations and peace of mind."
           />
-        </Grid> */}
+        </Grid>
         <Grid item md={4}>
           <ConsultantCard
             backgroundColor={APP_COLORS.PRIMARY_COLOR}
@@ -81,7 +86,8 @@ const WhyElite = () => {
                 color={APP_COLORS.WHITE}
               />
             }
-            content="Service supported by ERP system enables us to provide quick and efficient services."
+            header="Proven Track Record"
+            content="We have a proven track record of success, with numerous satisfied clients who have benefited from our expertise and dedication. Our reputation speaks for itself, and we are proud to be a trusted partner for businesses across various industries."
           />
         </Grid>
       </Grid>

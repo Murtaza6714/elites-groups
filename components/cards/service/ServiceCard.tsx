@@ -28,13 +28,13 @@ const ServiceCard = ({imgUrl,title,content,btnLabel}:ServiceCardProps) => {
         <Typography gutterBottom variant="h6" component="div">
           {title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        {/* <Typography variant="body2" color="text.secondary">
          {content}
-        </Typography>
+        </Typography> */}
       </CardContent>
-      <CardActions>
+      {/* <CardActions>
         <Button variant="text" fullWidth={false} size="small">{btnLabel}</Button>
-      </CardActions>
+      </CardActions> */}
     </Card>
   );
 };

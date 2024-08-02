@@ -64,7 +64,7 @@ const TestimonialCardComponent = ({ review }: any) => {
                 >
                   {review.authorName}
                 </Typography>
-                <Typography
+                {/* <Typography
                   fontSize={14}
                   gutterBottom
                   color="gray"
@@ -74,7 +74,7 @@ const TestimonialCardComponent = ({ review }: any) => {
                   variant="body2"
                 >
                   {review.authorDesignation}
-                </Typography>
+                </Typography> */}
               </Box>
             </Grid>
           </Grid>

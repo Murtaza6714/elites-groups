@@ -26,11 +26,13 @@ interface ConsultantCardProps {
   content: string;
   icon: React.ReactNode;
   backgroundColor?: string;
+  header: string;
 }
 
 const ConsultantCard = ({
   content,
   icon,
+  header,
   backgroundColor,
 }: ConsultantCardProps) => {
   return (
@@ -45,6 +47,9 @@ const ConsultantCard = ({
         >
           <Grid item>{icon}</Grid>
           <Grid item>
+          <Typography variant="h6" textAlign="center" sx={{ fontWeight: 'bold' }}>
+          {header}
+        </Typography>
             <Typography variant="body1" textAlign="center">
               {content}
             </Typography>

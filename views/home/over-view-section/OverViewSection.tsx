@@ -22,23 +22,11 @@ const OverViewSection = () => {
         variant="h4"
         textAlign="center"
       >
-        Elite Consultant Overview
+        Elite Overseas Overview
       </Typography>
       <Typography textAlign="justify">
-        Elite Consultants is a professional consulting firm that provides
-        services with respect to Indirect Taxation regarding DGFT Services,
-        Customs Services and GST, as well as Industrial Subsidies from various
-        Government Departments. We also assist foreign investors and global or
-        international companies whose business interests lie in India. We are
-        ISO 9001:2015 certified organisation with stringent processes to deliver
-        best-in-the-industry services. Our core competency lies in our in-depth
-        knowledge of the Regulatory Environment, Government Policies &
-        Procedures and the role of different Government Agencies. Our notable
-        experience in this sector helps us to be a business-oriented firm while,
-        our expertise in the subject matter related to Foreign Trade Policy,
-        Industrial Subsidies and other related issues across different sectors &
-        segments, has enabled us to provide high-quality services and innovative
-        solution to our customers.
+      ELITE OVERSEAS offers specialized consulting services in Indirect Taxation regarding DGFT Services, Customs Services and GST etc. from various Government Departments. With extensive experience in this sector helps us to be a business-oriented firm while, our expertise in the subject matter provide comprehensive solutions to help organizations achieve their goals, high quality services and innovative solution to our customers.
+
       </Typography>
     </StyledOverSection>
   );
