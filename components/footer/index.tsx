@@ -116,7 +116,8 @@ const FooterComponent = () => {
             </Grid>
             <Grid item>
               <StyledList>
-                <ListItemButton>
+                  <a href="mailto:info@elitegroups.com" style={{ textDecoration: 'none', color: 'inherit' }}>
+                  <ListItemButton>
                   <ListItemIcon sx={{ color: "inherit" }}>
                     <AiOutlineMail />
                   </ListItemIcon>
@@ -128,6 +129,7 @@ const FooterComponent = () => {
                     }}
                   />
                 </ListItemButton>
+                  </a>
               </StyledList>
             </Grid>
           </Grid>
