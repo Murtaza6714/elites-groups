@@ -151,9 +151,15 @@ const FooterComponent = () => {
               </IconButton>
             </Grid>
             <Grid item>
+            <a 
+    href="https://api.whatsapp.com/send/?phone=6232009452&text=I%27d+like+to+know+more+about+your+services&type=6232009452&app_absent=0" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
               <IconButton sx={(theme) => ({ color: theme.palette.grey[700] })}>
                 <RiWhatsappFill />
               </IconButton>
+              </a>
             </Grid>
             <Grid item>
               <IconButton sx={(theme) => ({ color: theme.palette.grey[700] })}>
