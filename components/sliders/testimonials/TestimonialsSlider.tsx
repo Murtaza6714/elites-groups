@@ -36,7 +36,7 @@ const reviews= [{
 },
 {
   companyName: "SAPL INDUSTRIES PVT LTD",
-  content: "The team;s attention to detail and thorough understanding of IGST regulations significantly benefited our organization. They not only ensured compliance but also optimized our claims to maximize returns. Their support was instrumental in our success.",
+  content: "The team's attention to detail and thorough understanding of IGST regulations significantly benefited our organization. They not only ensured compliance but also optimized our claims to maximize returns. Their support was instrumental in our success.",
   authorName: "SAPL INDUSTRIES PVT LTD",
   // authorDesignation: "Business Executive"
 },
