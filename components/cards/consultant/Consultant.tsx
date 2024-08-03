@@ -50,7 +50,13 @@ const ConsultantCard = ({
           <Typography variant="h6" textAlign="center" sx={{ fontWeight: 'bold' }}>
           {header}
         </Typography>
-            <Typography variant="body1" textAlign="center">
+            <Typography variant="body1" textAlign="justify" // Justify text
+      sx={{
+        width: '80%', // Set the desired width here
+        margin: '0 auto', // Center the content
+        whiteSpace: 'pre-wrap', // Maintain whitespace and line breaks
+        wordWrap: 'break-word', // Break long words to fit within the width
+      }}>
               {content}
             </Typography>
           </Grid>

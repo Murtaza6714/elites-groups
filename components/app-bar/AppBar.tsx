@@ -55,7 +55,7 @@ const AppBarComponent = () => {
             component="div"
             sx={(theme) => ({ flexGrow: 1, color: theme.palette.common.white })}
           >
-            Elite
+            Elite Overseas
           </Typography>
           <Box pl={2}>
             <StyledTabsList

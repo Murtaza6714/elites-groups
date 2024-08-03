@@ -51,7 +51,7 @@ const ServicesComponent = () => {
         </Grid>
         <Grid item md={3}>
           <ServiceCard
-            title="Taxiation"
+            title="Taxation"
             imgUrl="https://plus.unsplash.com/premium_photo-1677865215414-f78e263f7c85?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGF4YXRpb258ZW58MHx8MHx8fDA%3D"
             content="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
             btnLabel="Know More"
